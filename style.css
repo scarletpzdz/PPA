@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Manrope:wght@200..800&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: aliceblue;
+    width: 100%;
+}
+
+header ul{
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 10px;
+}
+img{
+    width: 150px;
+}
+h1{
+    display: flex;
+    font-size: 24px;
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 24px;
+    color: rgba(0, 0, 255, 0.753);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-content: center;
+}
+p{
+    font-size: 16px;
+    color: black;
+}
+.presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.presentacion h1{
+    font-size: 35px;
+    color: rgb(24, 141, 69);
+}
+.presentacion p{
+    width: 70%;
+    font-size: 30px;
+    padding: 10px;
+    display: flex;
+    align-content: center;
+    font-family: "Caveat", cursive;
+}
+#Sostenibilidad {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#Sostenibilidad iframe{
+    padding: 10px;
+    margin: 10px;
+}
+.contenedor{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 10px 0;
+    background-color: rgb(213, 238, 230);
+}
+.caja1, .caja2, .caja3 {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.caja img {
+    border-radius: 50%;
+    width: 100%; /* Se adapta al ancho del contenedor .caja */
+    max-width: 150px; /* Establece un ancho máximo */
+    height: auto; /* Mantiene la proporción */
+    object-fit: contain; /* Ajusta la imagen sin recortarla */
+    display: flex;
+    flex-direction: column;
+}
+.caja p{
+    font-size: 12px;
+}
+
